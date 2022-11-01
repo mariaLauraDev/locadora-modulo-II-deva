@@ -35,7 +35,7 @@ public class Midia {
         this.nome = nome;
     }
 
-    public static void darPlay(){
+    public void darPlay(){
 
     }
 
