@@ -64,10 +64,10 @@ public class Dvd extends Midia{
 
     public void legenda(boolean ligar, String idioma){
         if (possuiLegenda && !ligar){
-            System.out.println("As legendas do filme " + getNome() + " estão desligadas. Ligue-as para poder configurar o idioma da legenda.");
+            System.out.println("As legendas do filme " + getNome() + " estão desativadas. Ligue-as para poder configurar o idioma da legenda.");
         } else if (possuiLegenda){
             setIdiomaLegenda(idioma);
-            System.out.println("As legendas do filme " + getNome() + " estão ligadas. O idioma selecionado é o " + idioma + ".");
+            System.out.println("As legendas do filme " + getNome() + " estão ativas. O idioma selecionado é o " + idioma + ".");
         } else {
             System.out.println("Não há legendas disponíveis para o filme " + getNome() + ".");
         }
