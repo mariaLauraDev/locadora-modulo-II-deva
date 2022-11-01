@@ -21,8 +21,11 @@ public class DoacaoMidia {
     }
 
     public static void assistirFilme(Dvd dvd){
-        dvd.darPlay();
         dvd.legenda(true);
         dvd.legenda(true,"português");
+    }
+
+    public static void main(Midia midia){
+        midia.darPlay();
     }
 }

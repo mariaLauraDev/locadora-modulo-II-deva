@@ -36,7 +36,7 @@ public class Midia {
     }
 
     public void darPlay(){
-
+        System.out.printf("A mídia %s está ativa", getNome());
     }
 
     @Override

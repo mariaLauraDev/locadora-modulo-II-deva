@@ -4,7 +4,8 @@ public class Main {
         Dvd madMax = new Dvd("DVD-002",15.90,"Mad Max","inglês",true,"inglês");
         Dvd oParasita = new Dvd("DVD-003",25.90,"O Parasita","coreano",true);
 
-        DoacaoMidia.assistirFilme(starWars);
+        System.out.println("------------------ MÍDIAS PARA DOAÇÃO ------------------");
+
         System.out.println("O filme " + DoacaoMidia.pegarMidiaAleatoria().getNome() + " foi selecionado para doação.");
     }
 }

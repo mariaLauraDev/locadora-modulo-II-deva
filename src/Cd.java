@@ -29,6 +29,10 @@ public class Cd extends Midia {
         this.quantidadedeFaixas = quantidadedeFaixas;
     }
 
+    @Override
+    public void darPlay(){
+        System.out.println("Primeira faixa tocando");
+    }
 
     @Override
     public String toString() {
